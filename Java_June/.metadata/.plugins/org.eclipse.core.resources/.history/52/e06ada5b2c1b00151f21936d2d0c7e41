@@ -1,0 +1,59 @@
+package ex1;
+
+public class CallClass {
+
+	public static void main(String[] args) {
+		
+		
+		double rad = Shapes.getUserDouble("Enter the redius :");
+		System.out.println(Shapes.calAreaCircle(rad));
+		
+		double rad1 = Shapes.getUserDouble("Enter the radius");
+	     System.out.println(Shapes.calAreaCircle(rad1));
+	     
+	
+	   
+	   double base = Shapes.getUserDouble("Enter the base");
+	    System.out.println(base);
+	
+	   double height = Shapes.getUserDouble("Enter the height");
+	    System.out.println(height);
+	    
+	   System.out.println(Shapes.getTriArea(base, height));
+
+	
+	    
+	   double side1 = Shapes.getUserDouble("Enter first side");
+	   double side2 = Shapes.getUserDouble("Enter second side");
+	   double side3 = Shapes.getUserDouble("Enter third side");
+	   System.out.println(Shapes.getTriCircum(side1, side2, side3));
+	
+	
+	
+	
+	    double sqrside = Shapes.getUserDouble("Enter the size of the square's side");
+	    System.out.println(sqrside);
+	    
+	    
+	    double Sqrside1 = Shapes.getUserDouble("Enter the size of the square's side");
+	    System.out.println(Sqrside1);
+		
+	
+	
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+      
+	
+	
+     
+}
+

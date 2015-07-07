@@ -1,0 +1,34 @@
+package ex1;
+
+import javax.swing.JOptionPane;
+
+public class Weight {
+
+	static int gallon = 0;
+	static int pint = 0;
+	
+	public static int getUserInt (String msg) {
+	 String str = JOptionPane.showInputDialog(msg);
+	 int userInt = Integer.parseInt(str);
+	 return userInt;
+		}
+	
+	public static void setWeight (int gallon, int pint) {
+	}
+		 
+	public static void addWeight (int gallon, int pint) {
+	}	
+	
+	public static void subWeight (int gallon, int pint) {
+	}
+	
+	public static String getWeight () {
+		return "Gallon: " + gallon + "\nPints: "+ pint;
+
+	}
+	
+	public static void displayWeight() {
+		System.out.println(getWeight());
+	}
+
+}

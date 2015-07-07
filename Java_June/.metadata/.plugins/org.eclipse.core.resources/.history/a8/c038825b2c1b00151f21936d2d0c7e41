@@ -1,0 +1,43 @@
+package ex1;
+
+import javax.swing.JOptionPane;
+
+
+
+public class Shapes {
+		
+    public static int getUserInt (String msg) {
+    	String str = JOptionPane.showInputDialog(msg);
+    	int userInt = Integer.parseInt(str);
+		return userInt;
+	}
+    
+    public static double getUserDouble (String msg) {
+    	String str = JOptionPane.showInputDialog(msg);
+    	double userInt = Double.parseDouble(str);
+		return userInt;
+	}
+    
+    public static String getUserString (String msg) {
+    	String str = JOptionPane.showInputDialog(msg);
+		return str;
+	}
+    
+    public static double calAreaCircle (double rad) {
+    	double area = rad*rad*Math.PI;
+    	return area;
+		
+	}
+    public static double calcircumcircle (double rad1) {
+    	double circum = rad1 * Math.PI*2;
+    	return circum;
+    }
+
+    public static double getbase (double base1) {
+    	String base = JOptionPane.showInputDialog(base1);
+    	double userBase = Double.parseDouble(base);
+    	return userBase;
+    }
+}
+
+

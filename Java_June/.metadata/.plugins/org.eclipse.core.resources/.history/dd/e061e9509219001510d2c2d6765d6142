@@ -1,0 +1,19 @@
+package Solution;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		int a = 20;
+		int b = 50;		
+	
+		System.out.println("the value of a: a + "   ". The value of b:" + b);
+		
+		/*int tmp = b;
+			b = a;
+			a = tmp;
+	    
+				
+		System.out.println(a + "   " + b);
+	}*/
+
+}

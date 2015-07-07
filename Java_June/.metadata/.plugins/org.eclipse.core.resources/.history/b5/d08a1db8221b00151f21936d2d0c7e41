@@ -1,0 +1,33 @@
+package ex1;
+
+import javax.swing.JOptionPane;
+
+
+
+public class Shapes {
+		
+    public static int getUserInt (String msg) {
+    	String str = JOptionPane.showInputDialog(msg);
+    	int userInt = Integer.parseInt(str);
+		return userInt;
+	}
+    
+    public static double getUserDouble (String msg) {
+    	String str = JOptionPane.showInputDialog(msg);
+    	double userInt = Double.parseDouble(str);
+		return userInt;
+	}
+    
+    public static String getUserString (String msg) {
+    	String str = JOptionPane.showInputDialog(msg);
+		return str;
+	}
+    
+    public static double calAreaCircle (double rad) {
+    	double area = rad*rad*Math.PI;
+    	return area;
+		
+	}
+    
+}
+

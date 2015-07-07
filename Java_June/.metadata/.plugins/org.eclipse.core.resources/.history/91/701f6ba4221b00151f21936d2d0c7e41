@@ -1,0 +1,16 @@
+package ex1;
+
+public class CallClass {
+
+	public static void main(String[] args) {
+		
+		
+		double rad = Shapes.getUserDouble("Enter the redius :");
+		System.out.println(Shapes.calAreaCircle(rad));
+		
+	
+	}
+       double rad1 = Shapes.getUserDouble("Enter the radius");
+       
+     
+}

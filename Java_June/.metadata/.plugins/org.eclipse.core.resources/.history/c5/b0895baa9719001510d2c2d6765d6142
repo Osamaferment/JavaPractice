@@ -1,0 +1,36 @@
+package Solution;
+
+import javax.swing.JOptionPane;
+
+public class HelloWorld {
+
+
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		String myName = getName (); 
+		JOptionPane.showMessageDialog(null, myName);
+		;
+	}
+		
+		public static String getName() {
+		JOptionPane.showInputDialog("WHat is your name");
+		return getName();
+		}
+		
+		public static void m2() {
+			System.out.println("Hello from m2");
+			
+		}}
+		
+		
+	
+		
+		
+		
+		
+		

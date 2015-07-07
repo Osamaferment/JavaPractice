@@ -1,0 +1,17 @@
+package ex1;
+
+public class CallClass {
+
+	public static void main(String[] args) {
+		
+		
+		String pc = Shapes.getUserString("Enter your postcode:");
+		
+		
+		System.out.println(Shapes.calAreaCircle(12.5));
+		
+		
+		System.out.println(pc);
+	}
+
+}

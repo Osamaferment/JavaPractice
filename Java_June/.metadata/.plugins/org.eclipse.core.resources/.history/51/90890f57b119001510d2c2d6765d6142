@@ -1,0 +1,79 @@
+package Solution;
+
+import javax.swing.JOptionPane;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+			 
+		 String Sr1 = JOptionPane.showInputDialog("Enter your first number...");
+		 int num1 = Integer.parseInt(Sr1);
+		 
+		 String Sr2 = JOptionPane.showInputDialog("Enter your second number...");
+		 int num2 = Integer.parseInt(Sr2);
+		 
+		 
+		 String strinput = JOptionPane.showInputDialog(null, "1.Add\n2.Sub\n3.Mult\n4.Div");
+		 int option = Integer.parseInt(strinput);
+		 int result = 0;
+	
+		 if (option == 1){
+			 result = addNum( num1, num2);
+			 
+		 }
+		 else if (option == 2){
+			 result = subNum( num1, num2);
+			 
+		 }
+		 
+		 else if (option == 3){
+			 result = Mulnum( num1, num2);
+			 
+		 }
+		 
+		 else if (option == 4){
+			 result = Divnum( num1, num2);
+			 
+		 }
+		 
+		 else {
+			 System.out.println("Unknown");
+			 System.exit(0);
+			 
+		 }
+		 
+		 int result = addNum(num1, num2);
+		 JOptionPane.showMessageDialog(null,"The result is : " + result);
+         
+		 int result2 = subNum(num1, num2);
+		 
+		 JOptionPane.showMessageDialog( null, "The result is : " + result2);
+		 
+		 int result3 = Mulnum(num1, num2);
+		 JOptionPane.showMessageDialog( null, "The result is : " + result3);
+		 
+		 int result4 = Divnum(num1, num2);
+		 JOptionPane.showMessageDialog( null, "The result is : " + result4);
+		 
+	}
+
+	
+public static int addNum ( int num1, int num2){
+	
+	return num1 + num2;
+}
+
+public static int subNum ( int num1, int num2){
+	return num1 - num2;
+}
+
+public static int Mulnum ( int num1, int num2){
+	return num1 * num2;
+	
+}
+ 
+public static int Divnum ( int num1, int num2) {
+	 return num1/num2;
+	 
+ }
+}

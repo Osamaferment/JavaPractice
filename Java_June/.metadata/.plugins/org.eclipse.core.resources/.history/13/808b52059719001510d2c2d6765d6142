@@ -1,0 +1,48 @@
+package Solution;
+
+import javax.swing.JOptionPane;
+
+public class HelloWorld {
+
+
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		String myName = getName (); 
+		JOptionPane.showMessageDialog(null, myName);
+		;
+	}
+		
+		public static String getName() {
+		JOptionPane.showInputDialog("WHat is your name");
+		return getName();
+		}
+		
+		public static void m2() {
+			System.out.println("Hello from m2");
+		}
+		
+		
+		int a = 20;
+		int b = 50;		
+	
+		
+		
+		
+		
+		System.out.println("the value of a = "+ a + "  \nThe value of b = " + b);
+		
+		
+		/*int tmp = b;
+			b = a;
+			a = tmp;
+	    
+				
+		System.out.println(a + "   " + b);*/
+	}
+
+}

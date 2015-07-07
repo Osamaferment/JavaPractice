@@ -1,0 +1,16 @@
+package ex1;
+
+import javax.swing.JOptionPane;
+
+
+
+public class Shapes {
+		
+    public static int getUserInt (String msg) {
+    	String str = JOptionPane.showInputDialog(msg);
+    	int userInt = Integer.parseInt(str);
+    	
+		return userInt;
+	}
+}
+
